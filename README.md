@@ -21,4 +21,7 @@ How It Works
 3. If the extension is in the list, check file size
 4. If the file size is over than sizeValue, block the upload process
 
+
+You can also download at Sitecore Market (https://marketplace.sitecore.net/Modules/Image_Optimizer)
+
 Thank you, jammykam!!!

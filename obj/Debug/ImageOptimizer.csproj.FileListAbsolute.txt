@@ -1,0 +1,6 @@
+C:\Users\jihyunkim\Documents\GitHub\ImageOptimizer\obj\Debug\ImageOptimizer.csprojResolveAssemblyReference.cache
+C:\Users\jihyunkim\Documents\GitHub\ImageOptimizer\bin\ImageOptimizer.dll
+C:\Users\jihyunkim\Documents\GitHub\ImageOptimizer\bin\ImageOptimizer.pdb
+C:\Users\jihyunkim\Documents\GitHub\ImageOptimizer\bin\Sitecore.Kernel.dll
+C:\Users\jihyunkim\Documents\GitHub\ImageOptimizer\obj\Debug\ImageOptimizer.dll
+C:\Users\jihyunkim\Documents\GitHub\ImageOptimizer\obj\Debug\ImageOptimizer.pdb

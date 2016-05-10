@@ -27,8 +27,12 @@ namespace Sitecore.Validations.Attach
 
         public void Process(AttachArgs args)
         {
-            if (!args.MediaItem.FileBased && (!this.IsRestrictedExtension(args.File.FileName) || args.File.InputStream.Length > ImageAttachMaxSize.MaxImageSizeInDatabase))
+            //if (!args.MediaItem.FileBased && (!this.IsRestrictedExtension(args.File.FileName) || args.File.InputStream.Length > ImageAttachMaxSize.MaxImageSizeInDatabase))
+            //    throw new ClientAlertException(string.Format("The file is too big to be attached. The maximum size of a file that can be uploaded is {0}.", (object)MainUtil.FormatSize(ImageAttachMaxSize.MaxImageSizeInDatabase)));
+            if (this.IsRestrictedExtension(args.File.FileName) && args.File.InputStream.Length > ImageAttachMaxSize.MaxImageSizeInDatabase)
+            {
                 throw new ClientAlertException(string.Format("The file is too big to be attached. The maximum size of a file that can be uploaded is {0}.", (object)MainUtil.FormatSize(ImageAttachMaxSize.MaxImageSizeInDatabase)));
+            }
         }
 
         private bool IsRestrictedExtension(string filename)
